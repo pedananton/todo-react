@@ -16,6 +16,10 @@ function App() {
       text: 'Deploy todo-react',
       completed: true,
     },
+    {
+      text: 'chek auto compiling',
+      completed: false,
+    },
   ]);
 
   const onToggleCompleted = (index) => {
